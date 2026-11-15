@@ -1,0 +1,20 @@
+{
+  "name": "ดูแลอุปกรณ์",
+  "short_name": "ดูแลอุปกรณ์",
+  "description": "ดูแลอุปกรณ์ตามรอบ ประวัติซ่อม ประกัน และเตือนก่อนถึงกำหนด",
+  "lang": "th",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f2ec",
+  "theme_color": "#f5f2ec",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "บันทึกการดูแล/ซ่อม", "short_name": "บันทึก", "url": "/?add=log" },
+    { "name": "เพิ่มอุปกรณ์", "short_name": "เพิ่มอุปกรณ์", "url": "/?add=asset" }
+  ]
+}
